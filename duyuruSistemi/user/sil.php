@@ -1,3 +1,6 @@
+<?php session_start();
+ob_start();
+?>
 <?php 
 if ($_GET) 
 {

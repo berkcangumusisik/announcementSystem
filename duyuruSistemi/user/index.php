@@ -1,3 +1,6 @@
+<?php session_start();
+ob_start();
+?>
 <body class="hold-transition sidebar-mini layout-fixed">
   <?php
 

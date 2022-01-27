@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php
 include("data/vt.php");
 ?>
@@ -92,7 +93,7 @@ include("data/vt.php");
                                     </div>
                                     
                                     <div class="card-footer col-12">
-                                        <button type="submit" class="btn btn-outline-success col-12" id="ekleBtn">Kullanıcı Ekle</button>
+                                        <button type="submit" class="btn btn-outline-success col-12" id="ekleBtn">Kullanıcı Güncelle</button>
                                     </div>
                             </form>
                             <?php

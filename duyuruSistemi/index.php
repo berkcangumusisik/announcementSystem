@@ -44,7 +44,7 @@ include("data/navbar.php");
         <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
             Sitemize kayıt olarak duyuru ekleme,silme güncelleme işlemi yapabilirsiniz. Ayrıca kayıt olduktan sonra bilgilerinize
             ulaşabilir ve güncelleme işlemi gerçekleştirebilirsiniz. İletişim sayfasından bizimle her an iletişimde kalabilirsiniz.
-            Duyuru.io ekibi olarak şirketimiz hakkında duyurulardan haberdar olmanız için sizi de aramızda görmek isteriz.
+            Duyur.io ekibi olarak şirketimiz hakkında duyurulardan haberdar olmanız için sizi de aramızda görmek isteriz.
         </p>
     </div>
 

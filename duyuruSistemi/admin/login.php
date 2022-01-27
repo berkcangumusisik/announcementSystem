@@ -1,7 +1,7 @@
 <?php
 include("data/vt.php");
-
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -32,8 +32,9 @@ include("data/vt.php");
                     <div class="login-wrap py-5">
                         <div class="img d-flex align-items-center justify-content-center" style="background-image: url(plugins/loginform/images/bg.jpg);"></div>
                         <h3 class="text-center mb-0">Tekrar Hoş Geldin</h3>
-                        
-                        <form action="#" class="POST" id="login-form">
+
+                        <form action="index.php" class="POST" id="login-form">
+                            
                             <div class="form-group">
                                 <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-user"></span></div>
                                 <input type="email" class="form-control" name="adminMail" placeholder="Mail adresinizi giriniz" required>
@@ -49,7 +50,7 @@ include("data/vt.php");
                             <div class="form-group">
 
                                 <button type="submit" class="btn form-control btn-primary rounded submit px-3">Giriş Yap</button>
-
+                                
                             </div>
                         </form>
                         <div class="w-100 text-center mt-4 text">
@@ -65,7 +66,7 @@ include("data/vt.php");
     <script src="plugins/loginform/js/popper.js"></script>
     <script src="plugins/loginform/js/bootstrap.min.js"></script>
     <script src="plugins/loginform/js/main.js"></script>
-    
+
 
 </body>
 

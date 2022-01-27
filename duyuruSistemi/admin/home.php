@@ -11,6 +11,7 @@ include("data/sidebar.php");
       <div class="row mb-2">
         <div class="col-sm-6">
           <h1 class="m-0 text-dark">Ana Sayfa</h1>
+          
         </div>
       </div>
     </div>

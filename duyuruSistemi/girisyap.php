@@ -1,4 +1,5 @@
-<?php include("admin/data/vt.php");
+<?php session_start();
+include("admin/data/vt.php");
 include("data/navbar.php");
 ?>
 
@@ -13,11 +14,11 @@ include("data/navbar.php");
             <div class="row pb-4">
                 
                 <div class="col-lg-8 mx-auto">
-                    <form class="contact-form row" method="post" action="#" role="form">
+                    <form class="contact-form row" method="post" action="islem.php" role="form">
 
                         <div class="col-12 mb-4">
                             <div class="form-floating">
-                                <input type="text" name="fullName" class="form-control form-control-lg light-300" id="floatingphoneNumber" name="inputphoneNumber" placeholder="phoneNumber">
+                                <input type="text" name="userName" class="form-control form-control-lg light-300" id="floatingphoneNumber" name="inputphoneNumber" placeholder="phoneNumber">
                                 <label for="floatingphoneNumber light-300">Kullanıcı Adı</label>
 
                             </div>
@@ -25,7 +26,7 @@ include("data/navbar.php");
 
                         <div class="col-12 mb-4">
                             <div class="form-floating">
-                                <input type="password" name="email" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
+                                <input type="password" name="password" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
                                 <label for="floatingphone light-300">Şifre</label>
                             </div>
                         </div>

@@ -1,3 +1,4 @@
+
 <?php
 include("data/vt.php");
 ?>
@@ -24,7 +25,7 @@ include("data/vt.php");
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Duyurular</h1>
+                        <h1> Duyurular</h1>
                     </div>
                 </div>
             </div>

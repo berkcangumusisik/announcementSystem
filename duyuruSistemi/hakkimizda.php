@@ -9,7 +9,7 @@ include("data/navbar.php");
                 <div class="col-lg-6 text-start">
                     <h1 class="h2 py-5 text-primary typo-space-line">Hakkımızda</h1>
                     <p class="light-300">
-                        Duyuru.io projesi şirket içinde duyuruları tüm kullanıcıların görmesini sağlayarak hızlı bir şekilde
+                        Duyur.io projesi şirket içinde duyuruları tüm kullanıcıların görmesini sağlayarak hızlı bir şekilde
                         şirket içi iletişimi sağlayan bir proje ekibiyiz.
                     </p>
                 </div>
